@@ -2,7 +2,6 @@ import streamlit as st
 from langchain_groq import ChatGroq
 from langchain_core.prompts import PromptTemplate
 from cryptography.fernet import Fernet
-import openai
 import tempfile
 import assemblyai as aai
 from gtts import gTTS
@@ -13,7 +12,6 @@ load_dotenv()
 
 # Load API Keys
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY") 
 aai.settings.api_key = os.getenv("ASSEMBLYAI_API_KEY")
 ASSEMBLYAI_API_KEY = aai.settings.api_key
 
