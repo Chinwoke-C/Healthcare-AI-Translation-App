@@ -11,8 +11,6 @@ __pycache__/
 # Ignore virtual environment
 venv/
 
-requirements.txt
-
 secret.key
 
 temp_audio.mp3

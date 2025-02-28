@@ -1,10 +1,6 @@
-openai
 langchain-core
-langchain-openai
 langchain-groq
 cryptography
-python-dotenv
 streamlit
 assemblyai
 gtts
-pyaudio
