@@ -7,13 +7,7 @@ import assemblyai as aai
 from gtts import gTTS
 import os
 
-from dotenv import load_dotenv
-load_dotenv()
 
-# Load API Keys
-# GROQ_API_KEY = os.getenv("GROQ_API_KEY")
-# aai.settings.api_key = os.getenv("ASSEMBLYAI_API_KEY")
-# ASSEMBLYAI_API_KEY = aai.settings.api_key
 GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
 aai.settings.api_key = st.secrets["ASSEMBLYAI_API_KEY"]
 ASSEMBLYAI_API_KEY = aai.settings.api_key
