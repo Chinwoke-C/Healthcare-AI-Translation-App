@@ -16,3 +16,5 @@ requirements.txt
 secret.key
 
 temp_audio.mp3
+
+.streamlit/secrets.toml
