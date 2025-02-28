@@ -1,0 +1,18 @@
+# Ignore environment variables
+.env
+
+# Ignore compiled Python files
+__pycache__/
+
+# Ignore logs and system files
+*.log
+*.sqlite3
+
+# Ignore virtual environment
+venv/
+
+requirements.txt
+
+secret.key
+
+temp_audio.mp3
