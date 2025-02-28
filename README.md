@@ -20,7 +20,7 @@ Powered by **cutting-edge Generative AI**, it ensures:
 - Utilizes **AssembleAI Speech Recognition** for accurate transcription in the selected language.  
 
 ### 🌐 Real-time Translation  
-- Translates text between **14 languages** using **Google Translate**.  
+- Translates text between **13 languages** using **Google Translate**.  
 - Handles diverse linguistic needs with **precision**.  
 
 ### 🔊 Text-to-Speech with Encryption  
